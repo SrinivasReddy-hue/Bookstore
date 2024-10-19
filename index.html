@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container">
+            <h1 class="main-heading">Popular Book</h1>
+            <div class="top-card-container">
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="image" />
+                    <div class="d-flex flex-column justify-content-start">
+                        <h1 class="card-main-heading">Wings of Fire</h1>
+                        <p classs="paragraph">An autobiography of</br> Abdul Kalam</p>
+                        <h1 class="card-main-heading-2">by Arun Tiwari</h1>
+                        <button class="button btn bg-primary" onclick="display('sectionabdulkalam')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <h1 class="main-heading">Recommended Books</h1>
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="card-image" />
+                <div class="d-flex flex-column justify-content-center">
+                    <h1 class="heading-1">The 3 mistakes of my life</h1>
+                    <p class="paragraph-1">Indian author by chetan Bhadat</p>
+                    <button class="button btn bg-primary" onclick="display('sectionchetanbhagat')">Read Now</button>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="card-image">
+                <div class="d-flex flex-column">
+                    <h1 class="heading-1">Harry Potter</h1>
+                    <p class="paragraph-1">and the Sorcerer's Stone by J.K.Rowling</p>
+                    <button class="button btn bg-primary" onclick="display('sectionharrypotter')">Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionabdulkalam">
+        <div class="kalam-bg-container">
+            <div class="kalam-card-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="kalam-image" />
+                <h1 class="main-heading">Wings of Fire</h1>
+                <h1 class="card-main-heading-2">by Arun Tiwari</h1>
+                <p class="paragraph-1">Every commom man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strenth to go on.</p>
+                <button class="button btn bg-warning" onclick="display('sectionhome')">Back</button>
+                <button class="button btn bg-primary">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionchetanbhagat">
+        <div class="kalam-bg-container">
+            <div class="kalam-card-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="kalam-image" />
+                <h1 class="main-heading">The 3 mistakes of my life</h1>
+                <h1 class="card-main-heading-2">by chetan bhagat</h1>
+                <p class="paragraph-1">Every commom man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strenth to go on.</p>
+                <button class="button btn bg-warning" onclick="display('sectionhome')">Back</button>
+                <button class="button btn bg-primary">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionharrypotter">
+        <div class="kalam-bg-container">
+            <div class="kalam-card-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="kalam-image" />
+                <h1 class="main-heading">Harry Potter</h1>
+                <h1 class="card-main-heading-2">by J.K.Rowling</h1>
+                <p class="paragraph-1">Every commom man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strenth to go on.</p>
+                <button class="button btn bg-warning" onclick="display('sectionhome')">Back</button>
+                <button class="button btn bg-primary">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
